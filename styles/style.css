@@ -57,7 +57,7 @@ main {
 }
 img {
     width: 87px;
-    height: 87px;
+    height: auto;
     border-radius: 44px;
 }
 h1 {
@@ -71,7 +71,7 @@ p {
     color: var(--color-primary);
     margin-bottom: 1.8rem;
 }
-.social-link {
+a.social-link {
     text-decoration: none;
     display: flex;
     align-items: center;
