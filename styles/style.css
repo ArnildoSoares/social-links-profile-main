@@ -52,10 +52,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100%;
-    max-width: 23.4em;
-    min-height: 41.2em;
+    min-width: 23em;
+    max-width: 24.6em;
+    max-height: 41.5em;
     padding: 1.1em 1.6em;
     border-radius: 15px;
     background-color: var(--color-main);
