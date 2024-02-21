@@ -2,7 +2,6 @@
 
 
 :root {
-    font-size: 14px;
     --color-primary: hsl(75, 94%, 57%);
     --color-body: hsl(0, 0%, 8%);
     --color-main: hsl(0, 0%, 12%);
@@ -13,6 +12,9 @@
 /* <uniquifier>: Use a uniquifier for the class name */
 /* <weight>: Use a value from 100 to 900 */
 
+* {
+    box-sizing: border-box;
+}
 .font-inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -32,6 +34,7 @@
   }
 
 html {
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +53,9 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    max-width: 20.5em;
+    height: 100%;
+    max-width: 23.4em;
+    min-height: 41.2em;
     padding: 1.1em 1.6em;
     border-radius: 15px;
     background-color: var(--color-main);
@@ -62,7 +67,7 @@ img {
 }
 h1 {
     margin: 0;
-    margin-top: 1.6em;
+    margin-top: 0.5em;
 }
 p {
     margin: 0.4em;
