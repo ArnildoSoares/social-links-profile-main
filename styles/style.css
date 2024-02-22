@@ -104,20 +104,3 @@ a.social-link:last-child {
     background-color: var(--color-primary);
     color: var(--color-main);
 }
-.attribution {
-    position: fixed;
-    bottom: 13px; 
-    font-size: 11px;
-    text-align: center; 
-}
-.attribution a {
-    color: hsl(228, 45%, 44%); 
-}
-@media screen and(max-width: 575px) {
-    main {
-        width: 75%;
-        height: 534px;
-        padding: 24px;
-
-    }
-}
