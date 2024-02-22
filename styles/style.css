@@ -9,6 +9,12 @@
     --color-button: hsl(0, 0%, 20%);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* <uniquifier>: Use a uniquifier for the class name */
 /* <weight>: Use a value from 100 to 900 */
 
@@ -47,11 +53,11 @@ main {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    width: 86%;
-    max-width: 23.5rem;
+    width: 90%;
+    max-width: 24rem;
     min-width: 20rem;
     height: 100%;
-    max-height: 38rem;
+    max-height: 38.25rem;
     min-height: max-content;
     padding: 2rem;
     border-radius: .8rem;
