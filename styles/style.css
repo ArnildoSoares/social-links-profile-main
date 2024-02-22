@@ -46,9 +46,13 @@ body {
 }
 main {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    width: 279px;
+    align-items: center;
+    box-sizing: border-box;
+    width: 85%;
+    max-width: 385px;
+    min-width: 305px;
     height: 534px;
     padding: 24px;
     border-radius: 15px;
@@ -100,4 +104,12 @@ a.social-link:last-child {
 }
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+@media screen and(max-width: 575px) {
+    main {
+        width: 75%;
+        height: 534px;
+        padding: 24px;
+
+    }
 }
